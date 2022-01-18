@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.turn {
+  font-family: "Montserrat", sans-serif;
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  color: white;
+  background-color: transparent;
+  border-style: solid;
+  margin: 40px;
+  font-size: 20px;
+  color: white;
+  background-color: transparent;
+  border-color: white(0, 238, 255);
+  z-index: 2;
+  transition: 1s;
+}
+.header {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.generalInfo {
+  transition: 1s;
+  margin-left: 600px;
+  position: absolute;
+  color: white;
+  list-style: none;
+  font-weight: bold;
+}
+
+.name {
+  visibility: hidden;
+  color: white;
+}
+.birth {
+  visibility: hidden;
+  color: white;
+}
+.addres {
+  visibility: hidden;
+  color: white;
+}
+
+.acc {
+  background-image: url("./img/1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height:300px;
+  width: 300px;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 4px;
+  background-color: rgb(225, 225, 236);
+  transition: 1s linear;
+}
+
+.acc:hover{
+  width: 350px;
+  height:  350px;
+}
+
+
+.effect {
+  -webkit-box-shadow: 8px 8px 91px 200px rgba(66, 41, 103, 1);
+  -moz-box-shadow: 8px 8px 71px 200px rgba(66, 41, 103, 1);
+  box-shadow: 8px 8px 200px 400px rgba(66, 41, 103, 1);
+  border-color: rgb(140, 84, 223);
+}
+
+nav {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btnBorder {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  width: 200px;
+  height: 50px;
+  margin: 25px;
+  color: white;
+  background-color: transparent;
+  border-style: solid;
+  transition: 0.5s;
+}
+
+.infoEffect {
+  font-weight: bold;
+  color: black;
+  background-color: white;
+}
+nav button {
+  visibility: hidden;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.info div {
+  margin: 25px;
+}
+
+.aboutMe {
+  visibility: hidden;
+  color: white;
+  width: 200px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.workExp {
+  visibility: hidden;
+  color: white;
+  width: 200px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.skillSet {
+  display: flex; /*zawiera elementy ktore nalezy ulozyc */
+  justify-content: space-between;
+  visibility: hidden;
+  width: 200px;
+  color: white;
+}
+
+.contactTo {
+  font-weight: bold;
+  visibility: hidden;
+  width: 200px;
+  color: white;
+}
+
+.skillSet ul {
+  font-weight: bold;
+  list-style: none;
+}
+
+.contactTo ul {
+  list-style: none;
+}
+.show {
+  visibility: visible;
+}
+
+.contactTo a:visited {
+  color: white;
+}
+
+.disabled {
+  background-color: rgba(128, 128, 128, 0.356);
+}
+
